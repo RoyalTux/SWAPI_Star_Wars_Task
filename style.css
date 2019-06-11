@@ -9,6 +9,18 @@ i{
   font-size: large; 
 }
 
+#leftContent {
+  float: left;
+}
+
+#name {
+  float: left;
+}
+
+#rightContent {
+  float: right;
+}
+
 .modalwin { 
   height: 200px;  
   width: 300px;
@@ -23,6 +35,7 @@ i{
   display: none;  /* сначала невидим */
   position: fixed; /* фиксированное позиционирование, окно стабильно при прокрутке */
   padding: 15px;
+  overflow: auto;
   border: 1px solid #383838;
 }
 #shadow { 
